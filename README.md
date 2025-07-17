@@ -1,11 +1,11 @@
 
-# 🎮 GameVault - Mods, Skins & Codes Marketplace
+#  GameVault - Mods, Skins & Codes Marketplace
 
 **GameVault** is a dark-themed gaming e-commerce platform built with Next.js, designed for gamers to explore and buy game mods, skins, loot codes, and gift cards. With immersive visuals, product filtering, and a blog hub for gaming news, GameVault creates a next-level shopping experience for the gaming community.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Framework**: Next.js 14+ (App Router)
 - **Styling**: Tailwind CSS
@@ -17,20 +17,20 @@
 
 ---
 
-## 💡 Features
+##  Features
 
-- 🛍️ **Shop Page**: Browse products like mods, skins, codes, gift cards
-- 🔍 **Filters**: Category-based filtering (Skins, Mods, Codes)
-- 🔐 **Auth**: Login and Signup pages with form validation
-- 🛒 **Cart System**: Add/remove products and checkout support
-- 🧾 **CMS-Style Blog**: Posts like modding tips, news, skin updates
-- 🎨 **Hero Section**: Animated graphics for featured products
-- 🧠 **SEO Optimized**: Dynamic metadata for each route
-- 📜 **Policy Pages**: Privacy Policy & Terms of Service
+-  **Shop Page**: Browse products like mods, skins, codes, gift cards
+-  **Filters**: Category-based filtering (Skins, Mods, Codes)
+-  **Auth**: Login and Signup pages with form validation
+-  **Cart System**: Add/remove products and checkout support
+-  **CMS-Style Blog**: Posts like modding tips, news, skin updates
+-  **Hero Section**: Animated graphics for featured products
+-  **SEO Optimized**: Dynamic metadata for each route
+-  **Policy Pages**: Privacy Policy & Terms of Service
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 /app
@@ -48,7 +48,7 @@
 
 ---
 
-## 📦 Getting Started
+##  Getting Started
 
 1. **Install dependencies**
 
@@ -68,7 +68,7 @@ npm run dev
 
 ---
 
-## 🧠 SEO Setup (via Next Metadata)
+##  SEO Setup (via Next Metadata)
 
 This project uses `next/metadata` on every page for SEO optimization:
 
@@ -83,21 +83,21 @@ Use this metadata structure for all your pages.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 Deployed on [Vercel](https://vercel.com).  
 Push your repo to GitHub, connect to Vercel, and you're live.
 
 ---
 
-## 🖼️ Assets & Design
+##  Assets & Design
 
 - Product and blog visuals tailored for gamer aesthetics
 - Hero section images represent **mods, codes, skins**, etc.
 
 ---
 
-## 📄 License
+##  License
 
-MIT License © 2025 GameVault Team
+© 2025 GameVault Team
 
