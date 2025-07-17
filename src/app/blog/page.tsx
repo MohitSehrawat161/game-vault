@@ -32,14 +32,14 @@ interface BlogPost {
 export default function BlogPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black py-12 px-4 md:px-8 font-orbitron">
-      <h1 className="text-3xl md:text-5xl font-bold text-neon-purple mb-10 text-center ">Latest News & Updates</h1>
+      <h1 className="text-2xl md:text-3xl font-bold text-neon-purple mb-10 text-center ">Latest News & Updates</h1>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {(blogData as BlogPost[]).map((post) => (
           <div
             key={post.slug}
             className="bg-gray-900/80 border-2 border-neon-purple rounded-xl shadow-neon hover:shadow-neon-purple transition-shadow duration-300 overflow-hidden flex flex-col"
           >
-            <div className="relative w-full h-72">
+            <div className="relative w-full h-60">
               <Image
                 src={post.image}
                 alt={post.title}

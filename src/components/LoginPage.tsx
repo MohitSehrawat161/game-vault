@@ -38,7 +38,7 @@ export default function LoginPage() {
           </div>
           {/* Right: Login Card */}
           <div className="w-full md:w-1/2 max-w-md mx-auto bg-[#181840cc] rounded-2xl shadow-neon p-8 flex flex-col items-center backdrop-blur-md border border-[#2d0a3a]">
-            <h1 className="text-3xl md:text-4xl font-extrabold text-neon-blue mb-2 font-orbitron">Welcome Back, Gamer!</h1>
+            <h1 className="text-3xl md:text-4xl font-extrabold text-neon-blue mb-2">Welcome Back, Gamer!</h1>
             <p className="text-white/80 mb-8 text-center">Sign in to continue your adventure.</p>
             <form className="w-full flex flex-col gap-6" onSubmit={handleSubmit}>
               <div className="relative">
@@ -74,8 +74,8 @@ export default function LoginPage() {
           </div>
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-          .font-orbitron { font-family: 'Orbitron', sans-serif; }
+          @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+          .font-orbitron { font-family: 'Rajdhani', sans-serif; }
           .text-neon-blue { color: #00eaff; }
           .bg-neon-blue { background: #00eaff; }
           .text-neon-green { color: #00ffb7; }

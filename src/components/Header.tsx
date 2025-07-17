@@ -17,8 +17,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Logo" className="h-20 w-20 drop-shadow-neon" />
-          <span className="text-2xl font-bold text-neon-blue tracking-widest">GameVault</span>
+          <img src="/images/logo.png" alt="Logo" className="h-24 w-24 drop-shadow-neon" />
+          <span className="text-xl max-md:hidden font-bold text-neon-blue tracking-widest">GameVault</span>
         </Link>
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 items-center">
@@ -26,6 +26,7 @@ export default function Header() {
           <Link href="/shop" className="nav-link">Shop</Link>
           <Link href="/blog" className="nav-link">Blog</Link>
           <Link href="/privacy" className="nav-link">Privacy Policy</Link>
+          <Link href="/terms" className="nav-link">Terms of Service</Link>
         </nav>
         {/* Actions */} 
         <div className="flex items-center gap-4">
@@ -81,7 +82,7 @@ export default function Header() {
       )}
       {/* Custom styles for neon and font */}
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
         .font-orbitron { font-family: 'Orbitron', sans-serif; }
         .text-neon-blue { color: #00eaff; }
         .bg-neon-blue { background: #00eaff; }

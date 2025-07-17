@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎮 GameVault - Mods, Skins & Codes Marketplace
 
-First, run the development server:
+**GameVault** is a dark-themed gaming e-commerce platform built with Next.js, designed for gamers to explore and buy game mods, skins, loot codes, and gift cards. With immersive visuals, product filtering, and a blog hub for gaming news, GameVault creates a next-level shopping experience for the gaming community.
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 14+ (App Router)
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui, Lucide Icons
+- **Language**: TypeScript
+- **SEO**: Built-in `next/metadata`
+- **Deployment**: Vercel
+
+
+---
+
+## 💡 Features
+
+- 🛍️ **Shop Page**: Browse products like mods, skins, codes, gift cards
+- 🔍 **Filters**: Category-based filtering (Skins, Mods, Codes)
+- 🔐 **Auth**: Login and Signup pages with form validation
+- 🛒 **Cart System**: Add/remove products and checkout support
+- 🧾 **CMS-Style Blog**: Posts like modding tips, news, skin updates
+- 🎨 **Hero Section**: Animated graphics for featured products
+- 🧠 **SEO Optimized**: Dynamic metadata for each route
+- 📜 **Policy Pages**: Privacy Policy & Terms of Service
+
+---
+
+## 🗂️ Project Structure
+
+```
+/app
+  /shop         → Product listings
+  /cart         → Shopping cart
+  /login        → User login
+  /register       → User registration
+  /blog         → Blog articles
+  /privacy      → Privacy Policy
+  /terms        → Terms of Service
+
+/components      → UI building blocks (cards, layout, etc.)
+/public          → Static assets (images, logos, product art)
+```
+
+---
+
+## 📦 Getting Started
+
+1. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+2. **Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Visit** [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 SEO Setup (via Next Metadata)
 
-## Learn More
+This project uses `next/metadata` on every page for SEO optimization:
 
-To learn more about Next.js, take a look at the following resources:
+```tsx
+export const metadata = {
+  title: "Shop | GameVault",
+  description: "Explore game mods, skins, loot codes, and more at GameVault.",
+};
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Use this metadata structure for all your pages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deployed on [Vercel](https://vercel.com).  
+Push your repo to GitHub, connect to Vercel, and you're live.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖼️ Assets & Design
+
+- Product and blog visuals tailored for gamer aesthetics
+- Hero section images represent **mods, codes, skins**, etc.
+
+---
+
+## 📄 License
+
+MIT License © 2025 GameVault Team
+

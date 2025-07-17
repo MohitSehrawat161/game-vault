@@ -13,7 +13,7 @@ export default function CartPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-[#181840] to-black text-white font-orbitron py-8 px-2 md:px-0">
       <div className="max-w-4xl mx-auto w-full">
-        <h1 className="text-3xl md:text-4xl font-extrabold text-neon-blue text-center mb-10">Your Cart</h1>
+        <h1 className="text-2xl md:text-3xl font-extrabold text-neon-blue text-center mb-10">Your Cart</h1>
         {cart.length === 0 ? (
           <div className="bg-[#181840cc] rounded-2xl p-8 text-center shadow-neon">
             <p className="text-lg text-white/80 mb-6">Your cart is empty.</p>
@@ -33,7 +33,7 @@ export default function CartPage() {
                     </div>
                     <div className="flex-1 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
                       <div className="flex-1">
-                        <div className="text-lg font-bold text-neon-green mb-1">{item.name}</div>
+                        <div className="text-lg font-bold text-neon-green mb-1 font-rajdhani">{item.name}</div>
                         <div className="text-white/80 text-sm">${item.price.toFixed(2)}</div>
                       </div>
                       {/* Quantity Controls */}
@@ -71,16 +71,19 @@ export default function CartPage() {
                 <span className="text-neon-green">Total</span>
                 <span className="text-neon-green">${total.toFixed(2)}</span>
               </div>
+              <Link href={'/checkout'}>
               <button className="w-full py-3 rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-green hover:shadow-neon-green focus:outline-none focus:ring-2 focus:ring-neon-blue text-lg cursor-pointer">
+
                 Checkout
               </button>
+              </Link>
             </div>
           </div>
         )}
       </div>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-        .font-orbitron { font-family: 'Orbitron', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+        .font-orbitron { font-family: 'Rajdhani', sans-serif; }
         .text-neon-blue { color: #00eaff; }
         .bg-neon-blue { background: #00eaff; }
         .text-neon-green { color: #00ffb7; }

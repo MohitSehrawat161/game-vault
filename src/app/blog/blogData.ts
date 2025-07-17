@@ -140,6 +140,81 @@ Share your haul on social media with #GameVaultSale for a chance to win a $50 gi
 Happy shopping, and may your summer be filled with games and glowing gear!
 `,
   },
+  {
+    title: 'How to Choose the Best Gaming Mouse in 2025',
+    slug: 'choose-best-gaming-mouse-2025',
+    excerpt: 'A comprehensive guide to picking the perfect gaming mouse for your play style and budget in 2025.',
+    image: '/images/blogs/mouse.jpg',
+    category: ['Guides', 'Hardware'],
+    content: `# How to Choose the Best Gaming Mouse in 2025
+
+With so many options on the market, finding the right gaming mouse can be overwhelming. Here’s what to look for:
+
+## 1. Sensor Type
+Optical sensors are generally more accurate, but laser sensors work on more surfaces.
+
+## 2. DPI & Polling Rate
+Higher DPI isn’t always better. Choose a DPI that matches your game and play style.
+
+## 3. Ergonomics
+Pick a mouse that fits your hand size and grip style (palm, claw, or fingertip).
+
+## 4. Customization
+Look for programmable buttons, adjustable weights, and RGB lighting.
+
+## 5. Wired vs Wireless
+Modern wireless mice have minimal latency, but wired is still preferred for competitive play.
+
+Happy fragging!`,
+  },
+  {
+    title: 'The Evolution of Game Mods: From Doom to Today',
+    slug: 'evolution-of-game-mods',
+    excerpt: 'Explore the fascinating history of game mods, from early shooters to today’s massive modding communities.',
+    image: '/images/blogs/doom.jpg',
+    category: ['History', 'Modding'],
+    content: `# The Evolution of Game Mods: From Doom to Today
+
+Game mods have come a long way since the 1990s. Here’s a look at their journey:
+
+## Early Days
+Doom and Quake pioneered modding, letting players create new levels and weapons.
+
+## The Golden Age
+Games like Half-Life and Skyrim spawned huge modding communities and total conversions.
+
+## Modern Era
+Today, modding is supported by developers and integrated into platforms like Steam Workshop.
+
+## Why Modding Matters
+Mods keep games fresh, extend their lifespan, and empower creativity in the community.`,
+  },
+  {
+    title: 'All PlayStation Skins: The Ultimate Collection for 2025',
+    slug: 'all-playstation-skins',
+    excerpt: 'Explore the most comprehensive collection of PlayStation-themed skins for your favorite games. From classic blue to limited-edition collaborations, here’s what’s hot in 2025.',
+    image: '/images/blogs/playstation-skins.jpg',
+    category: ['News', 'Skins'],
+    content: `# All PlayStation Skins: The Ultimate Collection for 2025
+
+PlayStation fans, rejoice! 2025 brings a wave of stunning PlayStation-themed skins across top games. Here’s a look at the best and most exclusive skins you can equip this year:
+
+## Featured Skins
+- **Classic Blue**: The iconic PlayStation blue, now available for characters and weapons in multiple titles.
+- **DualSense Edition**: Inspired by the latest controller, this skin features adaptive trigger patterns and LED accents.
+- **Legacy Collection**: Celebrate PlayStation history with skins themed after PS1, PS2, PS3, and PS4.
+- **Limited Collabs**: Look out for crossover skins with major franchises, only available for a short time!
+
+## How to Get Them
+Most PlayStation skins are available through in-game events, the PlayStation Store, or as part of special bundles. Check your favorite game’s shop for the latest releases.
+
+## Community Showcase
+Share your favorite PlayStation skin setups on social media with #PlayStationSkins2025 for a chance to be featured on our blog!
+
+---
+
+Stay tuned for updates as more exclusive PlayStation skins drop throughout the year!`,
+  },
 ];
 
 export default blogData; 

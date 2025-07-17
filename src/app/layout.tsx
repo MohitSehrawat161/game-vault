@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { CartProvider } from '@/context/CartContext';
 import { Toaster } from 'react-hot-toast';
+import Footer from "@/components/Footer";
+import CookiesPolicy from "@/components/CookiesPolicy";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,6 +54,8 @@ export default function RootLayout({
           <div className="mt-20">
             {children}
           </div>
+          <Footer />
+          <CookiesPolicy />
         </CartProvider>
       </body>
     </html>

@@ -90,7 +90,7 @@ export default function SignupPage() {
           </div>
         </div>
         <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
           .font-orbitron { font-family: 'Orbitron', sans-serif; }
           .text-neon-blue { color: #00eaff; }
           .bg-neon-blue { background: #00eaff; }

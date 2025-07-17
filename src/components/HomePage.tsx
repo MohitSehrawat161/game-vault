@@ -30,16 +30,16 @@ export default function HomePage() {
   ];
 
   return (
-    <div >
-      <main className="bg-[#0a0a23] text-white font-orbitron min-h-screen">
+    <div className="font-rajdhani">
+      <main className="bg-[#0a0a23] text-white min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full  flex items-center justify-center overflow-hidden">
         
-        <div className="relative z-10 flex flex-col items-center text-center w-full px-4">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-neon-blue mb-4 animate-fade-in">
+        <div className="relative z-10 mt-10 flex flex-col items-center text-center w-full px-4">
+          <h1 className="text-2xl md:text-4xl font-extrabold text-neon-blue mb-4 animate-fade-in font-rajdhani">
             Level Up Your Game!
           </h1>
-          <p className="text-lg md:text-2xl mb-8 text-white/90 animate-fade-in delay-200">
+          <p className="text-lg md:text-xl mb-8 text-white/90 animate-fade-in delay-200 font-rajdhani">
             Buy Skins, Codes, Mods, and Gift Cards – All in One Place
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -54,8 +54,8 @@ export default function HomePage() {
       </section>
 
       {/* Category Section */}
-      <section className="max-w-7xl mx-auto py-16 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-neon-green">Shop by Category</h2>
+      <section className="max-w-7xl mx-auto py-8 px-4">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-neon-green font-rajdhani">Shop by Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {categories.map((cat) => (
             <Link
@@ -63,10 +63,10 @@ export default function HomePage() {
               href={{ pathname: '/shop', query: { category: cat.title } }}
               className={`group rounded-xl overflow-hidden shadow-lg bg-[#181840] hover:scale-105 transition transform duration-300 border-2 border-transparent hover:border-${cat.accent}`}
             >
-              <div className="relative w-full h-60 md:h-68">
+              <div className="relative w-full h-48 md:h-52">
                 <Image src={cat.img} alt={cat.title} layout="fill" objectFit="contain" className="group-hover:opacity-80 transition" />
               </div>
-              <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent}`}>{cat.title}</div>
+              <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent} font-rajdhani`}>{cat.title}</div>
             </Link>
           ))}
         </div>
@@ -74,15 +74,15 @@ export default function HomePage() {
 
       {/* Featured Products Section */}
       <section className="max-w-7xl mx-auto py-16 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-neon-purple">Featured Products</h2>
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-neon-purple font-rajdhani">Featured Products</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {featuredProducts.map((prod) => (
             <div key={prod!.id} className="bg-[#181840] rounded-xl pb-4 shadow-lg flex flex-col items-center  hover:scale-105 transition transform duration-300 border-2 border-transparent hover:border-neon-blue">
-              <div className="relative w-full h-68 mb-4">
+              <div className="relative w-full h-52 mb-4">
                 <Image src={prod!.image} alt={prod!.name} layout="fill" objectFit="cover" objectPosition="top" className="rounded-lg" />
               </div>
-              <div className="text-lg font-bold mb-2 text-white text-center">{prod!.name}</div>
-              <div className="text-neon-green font-extrabold text-xl mb-4">{prod!.price}</div>
+              <div className="text-lg font-bold mb-2 text-white text-center font-rajdhani">{prod!.name}</div>
+              <div className="text-neon-green font-extrabold text-xl mb-4 font-rajdhani">{prod!.price}</div>
               <button
                 className="px-5 py-2 cursor-pointer rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-green hover:shadow-neon-green focus:outline-none focus:ring-2 focus:ring-neon-blue"
                 onClick={() => {
@@ -107,7 +107,7 @@ export default function HomePage() {
 
       {/* Why Choose Us Section */}
       <section className="max-w-5xl mx-auto py-16 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-neon-blue">Why Choose Us?</h2>
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-neon-blue font-rajdhani">Why Choose Us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           {[
             { icon: '⚡', text: 'Instant Access' },
@@ -116,8 +116,8 @@ export default function HomePage() {
             { icon: '🎁', text: 'Bonus Loot for Members' },
           ].map((feat) => (
             <div key={feat.text} className="bg-[#181840] rounded-xl p-6 shadow-lg border-2 border-transparent hover:border-neon-purple transition">
-              <div className="text-4xl mb-4">{feat.icon}</div>
-              <div className="text-lg font-bold text-white">{feat.text}</div>
+              <div className="text-4xl mb-4 font-rajdhani">{feat.icon}</div>
+              <div className="text-lg font-bold text-white font-rajdhani">{feat.text}</div>
             </div>
           ))}
         </div>
@@ -127,7 +127,8 @@ export default function HomePage() {
 
       {/* Custom styles for neon and font */}
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+        .font-rajdhani { font-family: 'Rajdhani', Arial, sans-serif; }
         .font-orbitron { font-family: 'Orbitron', sans-serif; }
         .text-neon-blue { color: #00eaff; }
         .bg-neon-blue { background: #00eaff; }
