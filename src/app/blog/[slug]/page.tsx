@@ -9,16 +9,16 @@ export async function generateMetadata({ params }: { params: any }) {
   const post = blogData.find((p) => p.slug === slug);
   if (!post) {
     return {
-      title: 'Not Found | GameVault',
+      title: 'Not Found | RobloxAvatarGear',
       description: 'Blog post not found.',
     };
   }
   return {
-    title: `${post.title} | GameVault Blog`,
+    title: `${post.title} | RobloxAvatarGear Blog`,
     description: post.excerpt.length > 200 ? post.excerpt.slice(0, 197) + '...' : post.excerpt,
     keywords: post.category.concat([
       'gaming blog',
-      'GameVault articles',
+      'RobloxAvatarGear articles',
       'gaming news',
       'modding',
       'game updates',

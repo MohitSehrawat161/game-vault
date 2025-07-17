@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GameVault",
-  description: "GameVault - The ultimate gaming e-commerce experience. Buy skins, mods, codes, and more.",
+  title: "RobloxAvatarGear",
+  description: "RobloxAvatarGear - The ultimate gaming e-commerce experience. Buy skins, mods, codes, and more.",
 };
 
 export default function RootLayout({

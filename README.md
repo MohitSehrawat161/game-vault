@@ -1,7 +1,7 @@
 
-#  GameVault - Mods, Skins & Codes Marketplace
+#  RobloxAvatarGear - Mods, Skins & Codes Marketplace
 
-**GameVault** is a dark-themed gaming e-commerce platform built with Next.js, designed for gamers to explore and buy game mods, skins, loot codes, and gift cards. With immersive visuals, product filtering, and a blog hub for gaming news, GameVault creates a next-level shopping experience for the gaming community.
+**RobloxAvatarGear** is a dark-themed gaming e-commerce platform built with Next.js, designed for gamers to explore and buy game mods, skins, loot codes, and gift cards. With immersive visuals, product filtering, and a blog hub for gaming news, RobloxAvatarGear creates a next-level shopping experience for the gaming community.
 
 ---
 
@@ -74,8 +74,8 @@ This project uses `next/metadata` on every page for SEO optimization:
 
 ```tsx
 export const metadata = {
-  title: "Shop | GameVault",
-  description: "Explore game mods, skins, loot codes, and more at GameVault.",
+  title: "Shop | RobloxAvatarGear",
+  description: "Explore game mods, skins, loot codes, and more at RobloxAvatarGear.",
 };
 ```
 
@@ -99,5 +99,5 @@ Push your repo to GitHub, connect to Vercel, and you're live.
 
 ##  License
 
-© 2025 GameVault Team
+© 2025 RobloxAvatarGear Team
 

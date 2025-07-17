@@ -38,11 +38,11 @@ export default function Footer() {
         {/* Logo + Description */}
         <div className="flex flex-col items-start gap-3">
           <Link href="/" className="flex items-center gap-2 mb-2">
-            <Image src="/images/logo.png" alt="GameVault Logo" width={48} height={48} className="drop-shadow-neon" />
-            <span className="text-2xl font-bold text-neon-blue tracking-widest font-rajdhani">GameVault</span>
+            <Image src="/images/logo.png" alt="RobloxAvatarGear Logo" width={48} height={48} className="" />
+            <span className="text-2xl font-bold text-neon-blue tracking-widest font-rajdhani">RobloxAvatarGear</span>
           </Link>
           <p className="text-sm text-white/80 max-w-xs font-rajdhani">
-            GameVault – Your ultimate destination for skins, mods, and codes.
+            RobloxAvatarGear – Your ultimate destination for skins, mods, and codes.
           </p>
         </div>
         {/* Navigation */}
@@ -77,7 +77,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <Mail size={18} aria-label="Email" className="text-cyan-400" />
-              <a href="mailto:privacy@gamevault.com" className="hover:underline hover:text-cyan-400 font-rajdhani">privacy@gamevault.com</a>
+              <a href="mailto:info@RobloxAvatarGear.com" className="hover:underline hover:text-cyan-400 font-rajdhani">info@RobloxAvatarGear.com</a>
             </li>
             <li className="flex items-center gap-2">
               <span role="img" aria-label="Phone" className="text-green-400">📞</span>
@@ -97,11 +97,12 @@ export default function Footer() {
       {/* Bottom Row */}
       <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-2 text-xs text-white/60 font-rajdhani">
         <div className="flex items-center gap-2">
-          <span>© 2025 GameVault. All rights reserved.</span>
+          <span>© 2025 RobloxAvatarGear. All rights reserved.</span>
+          <span className="hidden md:inline">|</span>
         </div>
         <div className="flex items-center gap-4 mt-2 md:mt-0">
           <a href="https://discord.gg/" aria-label="Discord" target="_blank" rel="noopener noreferrer" className="hover:text-magenta-400 focus:outline-none focus:ring-2 focus:ring-magenta-400"><Disc size={18} /></a>
-          <a href="https://twitter.com/GameVaultGG" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400"><Twitter size={18} /></a>
+          <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400"><Twitter size={18} /></a>
           <a href="https://instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 focus:outline-none focus:ring-2 focus:ring-green-400"><Instagram size={18} /></a>
         </div>
       </div>

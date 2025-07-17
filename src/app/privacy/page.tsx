@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Privacy Policy | GameVault Gaming E-Commerce",
-  description: "Learn how GameVault protects your privacy and data. Read our privacy policy for details on data collection, security, and your rights.",
+  title: "Privacy Policy | RobloxAvatarGear Gaming E-Commerce",
+  description: "Learn how RobloxAvatarGear protects your privacy and data. Read our privacy policy for details on data collection, security, and your rights.",
   keywords: [
     "privacy policy",
     "data security",
-    "GameVault privacy",
+    "RobloxAvatarGear privacy",
     "user rights",
     "gaming e-commerce",
     "data protection",
@@ -26,13 +26,13 @@ export default function PrivacyPolicyPage() {
         {/* Introduction */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-purple mb-2">Introduction</h2>
-          <p className="text-gray-300">At GameVault, your privacy isn’t just a checkbox—it’s a core part of our mission. We’re gamers too, and we know how important it is to keep your data safe, secure, and respected. This Privacy Policy explains how we collect, use, and protect your information when you use our site, shop for games, or join our community. Whether you’re here for the latest loot or just browsing, you can trust that your privacy is in good hands.</p>
+          <p className="text-gray-300">At RobloxAvatarGear, your privacy isn’t just a checkbox—it’s a core part of our mission. We’re gamers too, and we know how important it is to keep your data safe, secure, and respected. This Privacy Policy explains how we collect, use, and protect your information when you use our site, shop for games, or join our community. Whether you’re here for the latest loot or just browsing, you can trust that your privacy is in good hands.</p>
         </section>
         <div className="border-b border-gray-700 mb-8" />
         {/* What Information We Collect */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-blue mb-2">What Information We Collect</h2>
-          <p className="text-gray-300 mb-2">When you interact with GameVault, we may collect the following types of information:</p>
+          <p className="text-gray-300 mb-2">When you interact with RobloxAvatarGear, we may collect the following types of information:</p>
           <ul className="list-disc list-inside text-gray-300 space-y-1">
             <li><span className="font-semibold text-neon-green">Personal Info:</span> Your name, email address, shipping address, and payment details when you make a purchase or create an account.</li>
             <li><span className="font-semibold text-neon-green">Device & Browser Info:</span> Technical details like your device type, browser, IP address, and operating system to help us optimize your experience.</li>
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
         {/* How We Use Your Information */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-blue mb-2">How We Use Your Information</h2>
-          <p className="text-gray-300">We use your information to make your GameVault experience legendary. Here’s how:</p>
+          <p className="text-gray-300">We use your information to make your RobloxAvatarGear experience legendary. Here’s how:</p>
           <ul className="list-disc list-inside text-gray-300 space-y-1">
             <li><span className="font-semibold text-neon-blue">Order Processing:</span> To process your orders, deliver your loot, and send you order updates.</li>
             <li><span className="font-semibold text-neon-blue">Support:</span> To help you with any issues, answer your questions, and provide top-tier customer service.</li>
@@ -55,13 +55,13 @@ export default function PrivacyPolicyPage() {
         {/* Cookies & Tracking */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-purple mb-2">Cookies & Tracking</h2>
-          <p className="text-gray-300">GameVault uses cookies and similar tracking tech to remember your preferences, keep you logged in, and analyze site traffic. By using our site, you consent to our use of cookies. You can manage your cookie settings in your browser at any time. For more details, check out our <Link href="/cookies" className="text-neon-blue underline hover:text-neon-green">Cookies Policy</Link>.</p>
+          <p className="text-gray-300">RobloxAvatarGear uses cookies and similar tracking tech to remember your preferences, keep you logged in, and analyze site traffic. By using our site, you consent to our use of cookies. You can manage your cookie settings in your browser at any time. For more details, check out our <Link href="/cookies" className="text-neon-blue underline hover:text-neon-green">Cookies Policy</Link>.</p>
         </section>
         <div className="border-b border-gray-700 mb-8" />
         {/* Data Security */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-blue mb-2">Data Security</h2>
-          <p className="text-gray-300">We take your data security seriously. GameVault uses industry-standard encryption, secure payment gateways, and regular security audits to keep your info safe from hackers, bots, and other digital baddies. Only authorized team members can access your data, and we never sell your info to third parties.</p>
+          <p className="text-gray-300">We take your data security seriously. RobloxAvatarGear uses industry-standard encryption, secure payment gateways, and regular security audits to keep your info safe from hackers, bots, and other digital baddies. Only authorized team members can access your data, and we never sell your info to third parties.</p>
         </section>
         <div className="border-b border-gray-700 mb-8" />
         {/* Third-party Services */}
@@ -85,9 +85,9 @@ export default function PrivacyPolicyPage() {
         {/* Contact Us */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-neon-blue mb-2">Contact Us</h2>
-          <p className="text-gray-300">Have questions, concerns, or just want to chat about your favorite game? Reach out to the GameVault Team any time:</p>
+          <p className="text-gray-300">Have questions, concerns, or just want to chat about your favorite game? Reach out to the RobloxAvatarGear Team any time:</p>
           <ul className="text-gray-300 mb-2">
-            <li>Email: <a href="mailto:privacy@gamevault.com" className="text-neon-blue underline hover:text-neon-green">privacy@gamevault.com</a></li>
+            <li>Email: <a href="mailto:info@robloxavatargear.com" className="text-neon-blue underline hover:text-neon-green">info@robloxavatargear.com</a></li>
             <li>Phone: <a href="tel:+1234567890" className="text-neon-blue underline hover:text-neon-green">+1 (234) 567-890</a></li>
           </ul>
           <p className="text-gray-300">We’re here to help you game with confidence!</p>

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { ShieldCheck } from 'lucide-react';
 
 const POLICY_TEXT = `
-At GameVault, we use cookies and similar technologies to enhance your browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Cookies are small text files stored on your device that help us remember your preferences, login status, and shopping cart contents. By using our website, you consent to our use of cookies in accordance with this policy.
+At RobloxAvatarGear, we use cookies and similar technologies to enhance your browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Cookies are small text files stored on your device that help us remember your preferences, login status, and shopping cart contents. By using our website, you consent to our use of cookies in accordance with this policy.
 
 **Types of Cookies We Use:**
 - **Essential Cookies:** These are necessary for the website to function and cannot be switched off. They include session cookies for login, cart management, and security.
@@ -25,25 +25,25 @@ You can control and delete cookies through your browser settings. Most browsers 
 We may use third-party services (like Google Analytics, Facebook Pixel, and payment providers) that set their own cookies. These are governed by their respective privacy policies.
 
 **Your Consent:**
-By continuing to use GameVault, you agree to our use of cookies as described above. You can withdraw your consent at any time by adjusting your browser settings or contacting us at privacy@gamevault.com.
+By continuing to use RobloxAvatarGear, you agree to our use of cookies as described above. You can withdraw your consent at any time by adjusting your browser settings or contacting us at privacy@robloxavatargear.com.
 
 **Policy Updates:**
 We may update this Cookies Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this policy regularly to stay informed about how we use cookies.
 
-If you have any questions about our Cookies Policy, please contact us at privacy@gamevault.com. Thank you for trusting GameVault with your gaming experience!`;
+If you have any questions about our Cookies Policy, please contact us at info@robloxavatargear.com. Thank you for trusting RobloxAvatarGear with your gaming experience!`;
 
 export default function CookiesPolicy() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const consent = localStorage.getItem('gamevault_cookies_accepted');
+      const consent = localStorage.getItem('robloxavatargear_cookies_accepted');
       if (!consent) setShow(true);
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('gamevault_cookies_accepted', 'true');
+    localStorage.setItem('robloxavatargear_cookies_accepted', 'true');
     setShow(false);
   };
 

@@ -2,8 +2,8 @@
 import HomePage from "@/components/HomePage";
 
 export const metadata = {
-  title: "GameVault | Level Up Your Game with Skins, Mods, Codes & More",
-  description: "Shop the best gaming skins, codes, mods, and gift cards at GameVault. Fast delivery, secure checkout, and exclusive deals for gamers.",
+  title: "RobloxAvatarGear | Level Up Your Game with Skins, Mods, Codes & More",
+  description: "Shop the best gaming skins, codes, mods, and gift cards at RobloxAvatarGear. Fast delivery, secure checkout, and exclusive deals for gamers.",
   keywords: [
     "gaming skins",
     "game codes",
@@ -11,7 +11,7 @@ export const metadata = {
     "gift cards",
     "cyberpunk shop",
     "buy games online",
-    "GameVault",
+    "RobloxAvatarGear",
     "e-commerce",
     "digital goods",
     "gamer deals"

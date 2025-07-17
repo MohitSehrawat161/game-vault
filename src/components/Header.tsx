@@ -17,16 +17,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Logo" className="h-24 w-24 drop-shadow-neon" />
-          <span className="text-xl max-md:hidden font-bold text-neon-blue tracking-widest">GameVault</span>
+          <img src="/images/logo.png" alt="Logo" className="h-12 w-12 " />
+          <span className="text-xl max-md:hidden font-bold text-neon-blue tracking-widest">RobloxAvatarGear</span>
         </Link>
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 items-center">
           <Link href="/" className="nav-link">Home</Link>
           <Link href="/shop" className="nav-link">Shop</Link>
           <Link href="/blog" className="nav-link">Blog</Link>
-          <Link href="/privacy" className="nav-link">Privacy Policy</Link>
-          <Link href="/terms" className="nav-link">Terms of Service</Link>
         </nav>
         {/* Actions */} 
         <div className="flex items-center gap-4">
@@ -71,8 +69,6 @@ export default function Header() {
           <nav className="w-full flex flex-col items-center gap-8 mt-16">
             <Link href="/" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Home</Link>
             <Link href="/shop" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Shop</Link>
-            <Link href="/privacy" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Privacy Policy</Link>
-            <Link href="/terms" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Terms of Service </Link>
             <Link href="/blog" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
             <Link href="/register" className="w-3/4 text-center px-5 py-3 rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-purple hover:shadow-neon-purple focus:outline-none focus:ring-2 focus:ring-neon-blue mt-4" onClick={() => setMobileMenuOpen(false)}>
               Register Now

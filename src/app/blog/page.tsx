@@ -3,13 +3,13 @@ import Link from 'next/link';
 import blogData from './blogData';
 
 export const metadata = {
-  title: "Latest Gaming News & Updates | GameVault Blog",
-  description: "Stay updated with the latest gaming news, modding tips, and shop announcements from GameVault. Explore articles, guides, and more.",
+  title: "Latest Gaming News & Updates | RobloxAvatarGear Blog",
+  description: "Stay updated with the latest gaming news, modding tips, and shop announcements from RobloxAvatarGear. Explore articles, guides, and more.",
   keywords: [
     "gaming news",
     "game updates",
     "modding tips",
-    "GameVault blog",
+    "RobloxAvatarGear blog",
     "gaming articles",
     "e-sports",
     "game reviews",

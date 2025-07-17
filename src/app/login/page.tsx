@@ -1,8 +1,8 @@
 import LoginPage from '../../components/LoginPage';
 
 export const metadata = {
-  title: 'Login | GameVault',
-  description: 'Sign in to your GameVault account and continue your adventure.'
+  title: 'Login | RobloxAvatarGear',
+  description: 'Sign in to your RobloxAvatarGear account and continue your adventure.'
 };
 
 export default function Page() {

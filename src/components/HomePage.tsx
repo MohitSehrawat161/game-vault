@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useCart } from '@/context/CartContext';
 import { products } from '@/app/shop/products';
 import { toast } from 'react-hot-toast';
-
+import { Zap, BadgeDollarSign, ShieldCheck, Gift } from 'lucide-react';
+import blogData from '@/app/blog/blogData';
 
 
 export default function HomePage() {
@@ -33,9 +34,9 @@ export default function HomePage() {
     <div className="font-rajdhani">
       <main className="bg-[#0a0a23] text-white min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full  flex items-center justify-center overflow-hidden">
-        
-        <div className="relative z-10 mt-10 flex flex-col items-center text-center w-full px-4">
+      <section style={{ backgroundImage: "url('/hero-image.png')", backgroundSize: 'cover', backgroundPosition: 'center' }} className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">n
+        <div className="absolute inset-0 bg-black/60 z-10" />
+        <div className="relative z-20 mt-10 flex flex-col items-center text-center w-full px-4">
           <h1 className="text-2xl md:text-4xl font-extrabold text-neon-blue mb-4 animate-fade-in font-rajdhani">
             Level Up Your Game!
           </h1>
@@ -66,7 +67,7 @@ export default function HomePage() {
               <div className="relative w-full h-64 md:h-72">
                 <Image src={cat.img} alt={cat.title} layout="fill" objectFit="contain" className="group-hover:opacity-80 transition" />
               </div>
-              {/* <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent} font-rajdhani`}>{cat.title}</div> */}
+              <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent} font-rajdhani`}>{cat.title}</div>
             </Link>
           ))}
         </div>
@@ -107,17 +108,92 @@ export default function HomePage() {
 
       {/* Why Choose Us Section */}
       <section className="max-w-5xl mx-auto py-16 px-4">
-        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-neon-blue font-rajdhani">Why Choose Us?</h2>
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-neon-blue font-rajdhani">Why Choose Us?</h2>
+        <p className="text-center text-white/80 mb-10 max-w-2xl mx-auto font-rajdhani text-base md:text-lg">
+          Experience instant access, unbeatable prices, and a secure shopping environment. Join our community to unlock exclusive rewards and enjoy a seamless journey through the best in gaming, mods, and avatar gear.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           {[
-            { icon: '⚡', text: 'Instant Access' },
-            { icon: '💸', text: 'Best Prices' },
-            { icon: '🛡️', text: 'Safe & Secure' },
-            { icon: '🎁', text: 'Bonus Loot for Members' },
+            { icon: <Zap size={40} className="mx-auto text-neon-blue drop-shadow-neon" />, text: 'Instant Access' },
+            { icon: <BadgeDollarSign size={40} className="mx-auto text-neon-green drop-shadow-neon-green" />, text: 'Best Prices' },
+            { icon: <ShieldCheck size={40} className="mx-auto text-neon-purple drop-shadow-neon-purple" />, text: 'Safe & Secure' },
+            { icon: <Gift size={40} className="mx-auto text-pink-500 drop-shadow-neon" />, text: 'Bonus Loot for Members' },
           ].map((feat) => (
             <div key={feat.text} className="bg-[#181840] rounded-xl p-6 shadow-lg border-2 border-transparent hover:border-neon-purple transition">
               <div className="text-4xl mb-4 font-rajdhani">{feat.icon}</div>
               <div className="text-lg font-bold text-white font-rajdhani">{feat.text}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Latest Blog Posts Section */}
+      <section className="max-w-7xl mx-auto py-16 px-4">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-neon-green font-rajdhani">Latest Blog Posts</h2>
+        <p className="text-center text-white/80 mb-10 max-w-2xl mx-auto font-rajdhani text-base md:text-lg">
+          Stay up to date with the latest news, guides, and tips from the world of gaming, Roblox, and avatar gear. Dive into our featured articles and discover something new every week!
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {blogData.slice(0, 3).map((post) => (
+            <div key={post.slug} className="bg-[#181840] rounded-xl shadow-lg overflow-hidden flex flex-col hover:scale-105 transition border-2 border-transparent hover:border-neon-green">
+              <div className="relative w-full h-[20rem]">
+                <Image src={post.image} alt={post.title} layout="fill" objectFit="contain" className="rounded-t-xl" />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-bold text-neon-green mb-2 font-rajdhani">{post.title}</h3>
+                <p className="text-white/80 text-sm mb-4 font-rajdhani flex-1">{post.excerpt}</p>
+                <Link href={`/blog/${post.slug}`} className="mt-auto inline-block px-5 py-2 rounded-lg bg-neon-green text-[#181840] font-bold shadow-neon-green transition hover:bg-neon-blue hover:text-white hover:shadow-neon focus:outline-none focus:ring-2 focus:ring-neon-green text-sm font-rajdhani text-center">Read More</Link>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <Link href="/blog" className="px-8 py-3 rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-green hover:text-[#181840] hover:shadow-neon-green focus:outline-none focus:ring-2 focus:ring-neon-blue text-lg font-rajdhani">View All Blog Posts</Link>
+        </div>
+      </section>
+
+      {/* User Reviews Section */}
+      <section className="max-w-5xl mx-auto py-16 px-4">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-neon-purple font-rajdhani">User Reviews</h2>
+        <p className="text-center text-white/80 mb-10 max-w-2xl mx-auto font-rajdhani text-base md:text-lg">
+          See what our community is saying about RobloxAvatarGear! Real feedback from real gamers.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            {
+              avatar: '/images/logo.png',
+              name: 'PixelNinja',
+              rating: 5,
+              review: 'Absolutely love the selection and the neon vibe! My avatar has never looked better. Fast delivery and great support.'
+            },
+            {
+              avatar: '/images/logo.png',
+              name: 'GamerQueen',
+              rating: 4,
+              review: 'Found rare skins I couldn’t get anywhere else. Checkout was smooth and the blog tips are super helpful.'
+            },
+            {
+              avatar: '/images/logo.png',
+              name: 'CodeMaster',
+              rating: 5,
+              review: 'Safe, secure, and stylish! The mods and codes work perfectly. Highly recommend to all Roblox fans.'
+            },
+            {
+              avatar: '/images/logo.png',
+              name: 'ShadowStrike',
+              rating: 5,
+              review: 'Customer service is top-notch. Got a bonus loot code just for signing up! Will shop again.'
+            },
+          ].map((user, idx) => (
+            <div key={idx} className="bg-[#181840] rounded-xl shadow-lg p-8 flex flex-col items-center border-2 border-transparent hover:border-neon-purple transition">
+              <Image src={user.avatar} alt={user.name} width={64} height={64} className="rounded-full mb-4 drop-shadow-neon" />
+              <div className="text-lg font-bold text-neon-purple mb-1 font-rajdhani">{user.name}</div>
+              <div className="flex items-center mb-3">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span key={i} className={i < user.rating ? 'text-yellow-400 text-xl' : 'text-gray-600 text-xl'}>★</span>
+                ))}
+              </div>
+              <p className="text-white/80 text-center font-rajdhani">{user.review}</p>
             </div>
           ))}
         </div>

@@ -29,8 +29,8 @@ export default function LoginPage() {
         <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center gap-0 md:gap-8 p-4">
           {/* Left: Logo/Avatar (desktop only) */}
           <div className="hidden md:flex flex-col items-center justify-center w-1/2 h-full">
-            <Image src="/images/logo.png" alt="Gamer Avatar" width={180} height={180} className="mb-6 drop-shadow-neon" />
-            <h2 className="text-2xl font-orbitron text-neon-blue font-bold text-center">Welcome to GameVault</h2>
+            <Image src="/images/logo.png" alt="Gamer Avatar" width={180} height={180} className="mb-6 " />
+            <h2 className="text-2xl font-orbitron text-neon-blue font-bold text-center">Welcome to RobloxAvatarGear</h2>
           </div>
           {/* Top: Logo/Avatar (mobile only) */}
           <div className="flex md:hidden flex-col items-center justify-center w-full mb-6">
