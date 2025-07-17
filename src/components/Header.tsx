@@ -71,8 +71,8 @@ export default function Header() {
           <nav className="w-full flex flex-col items-center gap-8 mt-16">
             <Link href="/" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Home</Link>
             <Link href="/shop" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Shop</Link>
-            <Link href="/privacy" className="nav-link">Privacy Policy</Link>
-
+            <Link href="/privacy" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Privacy Policy</Link>
+            <Link href="/terms" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Terms of Service </Link>
             <Link href="/blog" className="nav-link-mobile" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
             <Link href="/register" className="w-3/4 text-center px-5 py-3 rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-purple hover:shadow-neon-purple focus:outline-none focus:ring-2 focus:ring-neon-blue mt-4" onClick={() => setMobileMenuOpen(false)}>
               Register Now

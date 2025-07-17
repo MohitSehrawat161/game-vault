@@ -23,10 +23,10 @@ export default function HomePage() {
   ).filter(Boolean);
 
   const categories = [
-    { title: 'Skins', img: '/images/skins.avif', accent: 'neon-blue' },
-    { title: 'Codes', img: '/images/code.png', accent: 'neon-green' },
-    { title: 'Mods', img: '/images/mod.png', accent: 'neon-purple' },
-    { title: 'Gift Cards', img: '/images/gift-card.jpg', accent: 'neon-blue' },
+    { title: 'Skins', img: '/images/skins.png', accent: 'neon-blue' },
+    { title: 'Codes', img: '/images/codes.png', accent: 'neon-green' },
+    { title: 'Mods', img: '/images/mods.png', accent: 'neon-purple' },
+    { title: 'Gift Cards', img: '/images/gift-cards.png', accent: 'neon-blue' },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function HomePage() {
           <p className="text-lg md:text-xl mb-8 text-white/90 animate-fade-in delay-200 font-rajdhani">
             Buy Skins, Codes, Mods, and Gift Cards – All in One Place
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-2">
             <Link href="/shop" className="px-8 py-3 rounded-lg bg-neon-blue text-white font-bold shadow-neon transition hover:bg-neon-green hover:shadow-neon-green focus:outline-none focus:ring-2 focus:ring-neon-blue text-lg animate-fade-in delay-300">
               Shop Now
             </Link>
@@ -63,10 +63,10 @@ export default function HomePage() {
               href={{ pathname: '/shop', query: { category: cat.title } }}
               className={`group rounded-xl overflow-hidden shadow-lg bg-[#181840] hover:scale-105 transition transform duration-300 border-2 border-transparent hover:border-${cat.accent}`}
             >
-              <div className="relative w-full h-48 md:h-52">
+              <div className="relative w-full h-64 md:h-72">
                 <Image src={cat.img} alt={cat.title} layout="fill" objectFit="contain" className="group-hover:opacity-80 transition" />
               </div>
-              <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent} font-rajdhani`}>{cat.title}</div>
+              {/* <div className={`p-4 text-center text-xl font-bold text-white group-hover:text-${cat.accent} font-rajdhani`}>{cat.title}</div> */}
             </Link>
           ))}
         </div>

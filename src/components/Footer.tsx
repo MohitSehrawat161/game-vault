@@ -88,12 +88,16 @@ export default function Footer() {
       </div>
       {/* Separator */}
       <Separator />
+      {/* Disclaimer */}
+      <div className="max-w-7xl mx-auto mb-4 text-center">
+        <span className="block text-xs md:text-sm text-magenta-400 font-rajdhani bg-white/5 rounded-md px-3 py-2 shadow-neon mx-auto w-fit">
+          We are not an affiliate agency. All products are sold independently through our platform.
+        </span>
+      </div>
       {/* Bottom Row */}
       <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-2 text-xs text-white/60 font-rajdhani">
         <div className="flex items-center gap-2">
           <span>© 2025 GameVault. All rights reserved.</span>
-          <span className="hidden md:inline">|</span>
-          <span>Built with <span className="text-pink-500">❤️</span> using <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className="underline hover:text-cyan-400">Next.js</a></span>
         </div>
         <div className="flex items-center gap-4 mt-2 md:mt-0">
           <a href="https://discord.gg/" aria-label="Discord" target="_blank" rel="noopener noreferrer" className="hover:text-magenta-400 focus:outline-none focus:ring-2 focus:ring-magenta-400"><Disc size={18} /></a>
