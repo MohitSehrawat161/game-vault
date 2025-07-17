@@ -38,6 +38,8 @@
   /cart         → Shopping cart
   /login        → User login
   /register       → User registration
+  /checkout      → Checkout 
+  /checkout/confirmation      → Checkout Confirmation
   /blog         → Blog articles
   /privacy      → Privacy Policy
   /terms        → Terms of Service
@@ -100,4 +102,3 @@ Push your repo to GitHub, connect to Vercel, and you're live.
 ##  License
 
 © 2025 RobloxAvatarGear Team
-
