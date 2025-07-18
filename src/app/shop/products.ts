@@ -140,7 +140,7 @@ export const products: Product[] = [
     id: 25,
     name: 'Emo Boy Skin',
     price: '$7.99',
-    image: '/images/products/emo-boy-skin.jfif',
+    image: '/images/products/emo-boy-skin.png',
     category: 'Skins',
     description: 'Show off your edgy side with the Emo Boy Skin. Features dark hair, black clothes, and a mysterious vibe perfect for Roblox roleplay.'
   },
