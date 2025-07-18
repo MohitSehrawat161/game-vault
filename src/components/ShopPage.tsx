@@ -17,7 +17,7 @@ const categories = [
   { label: 'Gift Cards', value: 'Gift Cards', icon: <Gift size={20} /> },
 ];
 
-const PAGE_SIZE = 6;
+const PAGE_SIZE = 12;
 
 export default function ShopPage() {
   const { addToCart } = useCart();
@@ -141,7 +141,7 @@ export default function ShopPage() {
                   <DialogTitle className="text-neon-blue text-xl font-bold mb-2">{product.name}</DialogTitle>
                 </DialogHeader>
                 <div className="flex flex-col items-center gap-4">
-                  <div className="relative w-40 h-40">
+                  <div className="relative w-full h-40">
                     <Image src={product.image} alt={product.name} layout="fill" objectFit="contain" className="rounded-xl" />
                   </div>
                   <div className="text-neon-green font-extrabold text-lg">{product.price}</div>

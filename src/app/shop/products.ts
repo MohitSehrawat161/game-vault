@@ -72,4 +72,132 @@ export const products: Product[] = [
     category: 'Codes',
     description: 'Redeem for legendary in-game loot. This code grants you rare items, exclusive skins, and a boost to your inventory. Don’t miss out on the chance to upgrade your arsenal.'
   },
+  {
+    id: 9,
+    name: 'Cyber Samurai Skin',
+    price: '$8.49',
+    image: '/images/products/cyber-samurai-skin.png',
+    category: 'Skins',
+    description: 'Become a futuristic warrior with the Cyber Samurai Skin. Neon accents and animated armor make you stand out in every Roblox battle.'
+  },
+  {
+    id: 10,
+    name: 'Pixel Pirate Skin',
+    price: '$7.99',
+    image: '/images/products/pixel-pirate-skins.jpg',
+    category: 'Skins',
+    description: 'Sail the digital seas with this exclusive Pixel Pirate Skin. Includes a glowing cutlass and animated parrot companion.'
+  },
+  {
+    id: 11,
+    name: 'Galactic Explorer Skin',
+    price: '$9.49',
+    image: '/images/products/galactic-explorer-skin.webp',
+    category: 'Skins',
+    description: 'Travel the Roblox universe in style! This skin features a space suit with animated stars and a cosmic helmet.'
+  },
+  {
+    id: 12,
+    name: 'Shadow Agent Skin',
+    price: '$8.99',
+    image: '/images/products/shadow-agent-skin.webp',
+    category: 'Skins',
+    description: 'Blend into the night with the Shadow Agent Skin. Perfect for stealth missions and secret operations.'
+  },
+  {
+    id: 13,
+    name: 'Rainbow Unicorn Skin',
+    price: '$6.99',
+    image: '/images/products/rainbow-unicorn-skin.webp',
+    category: 'Skins',
+    description: 'Add some magic to your Roblox adventures! This skin features a rainbow mane, sparkling tail, and glowing horn.'
+  },
+  {
+    id: 14,
+    name: 'Frostbite Warrior Skin',
+    price: '$7.49',
+    image: '/images/products/frostbite-warrior-skin.png',
+    category: 'Skins',
+    description: 'Freeze your foes with the Frostbite Warrior Skin. Includes icy armor and a chilling blue aura.'
+  },
+  {
+    id: 15,
+    name: 'Volcanic Beast Skin',
+    price: '$8.99',
+    image: '/images/products/volcanic-beast-skin.png',
+    category: 'Skins',
+    description: 'Erupt onto the scene with this fiery Volcanic Beast Skin. Features animated lava cracks and glowing eyes.'
+  },
+  {
+    id: 16,
+    name: 'Golden Pharaoh Skin',
+    price: '$9.99',
+    image: '/images/products/golden-pharaoh-skin.png',
+    category: 'Skins',
+    description: 'Rule the Roblox world with the Golden Pharaoh Skin. Adorned with ancient jewelry and a shimmering gold headdress.'
+  },
+  {
+    id: 25,
+    name: 'Emo Boy Skin',
+    price: '$7.99',
+    image: '/images/products/emo-boy-skin.jfif',
+    category: 'Skins',
+    description: 'Show off your edgy side with the Emo Boy Skin. Features dark hair, black clothes, and a mysterious vibe perfect for Roblox roleplay.'
+  },
+  {
+    id: 26,
+    name: 'Kawaii Catgirl Skin',
+    price: '$8.49',
+    image: '/images/products/kawaii-catgirl-skin.jpg',
+    category: 'Skins',
+    description: 'Transform into a cute catgirl with this skin! Includes fluffy ears, a pastel outfit, and a playful attitude.'
+  },
+  {
+    id: 27,
+    name: 'Y2K Trendsetter Skin',
+    price: '$8.29',
+    image: '/images/products/Y2K-Trendsetter-skin.jpg',
+    category: 'Skins',
+    description: 'Rock the retro-futuristic Y2K look with this skin. Features trendy denim, sunglasses, and a cool-girl vibe.'
+  },
+  {
+    id: 28,
+    name: 'Princess Ballerina Skin',
+    price: '$7.49',
+    image: '/images/products/Princess-Ballerina-Skin.jpg',
+    category: 'Skins',
+    description: 'Dance your way through Roblox with the Princess Ballerina Skin. Includes a sparkling tiara and a beautiful pink tutu.'
+  },
+  {
+    id: 29,
+    name: 'Winter Angel Skin',
+    price: '$8.59',
+    image: '/images/products/Winter-Angel-Skin.jpg',
+    category: 'Skins',
+    description: 'Embrace the chill with the Winter Angel Skin. White dress, delicate wings, and a frosty aura make you stand out.'
+  },
+  {
+    id: 30,
+    name: 'Funny Small Head Skin',
+    price: '$6.99',
+    image: '/images/products/Funny-Small-Head-Skin.jpg',
+    category: 'Skins',
+    description: 'Bring the laughs with this Funny Small Head Skin. A quirky look that’s sure to get attention in any Roblox game.'
+  },
+  {
+    id: 31,
+    name: 'Soft Girl Pastel Skin',
+    price: '$7.79',
+    image: '/images/products/Soft-Girl-Pastel-Skin.jpg',
+    category: 'Skins',
+    description: 'Go soft and sweet with the Soft Girl Pastel Skin. Features gentle colors, bows, and a dreamy aesthetic.'
+  },
+  {
+    id: 32,
+    name: 'Zombie Emo Skin',
+    price: '$8.19',
+    image: '/images/products/Zombie-Emo-Skin.jpg',
+    category: 'Skins',
+    description: 'Combine spooky and stylish with the Zombie Emo Skin. Torn clothes, dark hair, and a hauntingly cool look.'
+  },
 ]; 

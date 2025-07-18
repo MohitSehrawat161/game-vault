@@ -38,8 +38,8 @@ export default function Footer() {
         {/* Logo + Description */}
         <div className="flex flex-col items-start gap-3">
           <Link href="/" className="flex items-center gap-2 mb-2">
-            <Image src="/images/logo.png" alt="RobloxAvatarGear Logo" width={48} height={48} className="" />
-            <span className="text-2xl font-bold text-neon-blue tracking-widest font-rajdhani">RobloxAvatarGear</span>
+            <img src="/images/logo.png" alt="RobloxAvatarGear Logo" width={48} height={48} className="w-40" />
+            {/* <span className="text-2xl font-bold text-neon-blue tracking-widest font-rajdhani">RobloxAvatarGear</span> */}
           </Link>
           <p className="text-sm text-white/80 max-w-xs font-rajdhani">
             RobloxAvatarGear – Your ultimate destination for skins, mods, and codes.
@@ -77,11 +77,11 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <Mail size={18} aria-label="Email" className="text-cyan-400" />
-              <a href="mailto:info@RobloxAvatarGear.com" className="hover:underline hover:text-cyan-400 font-rajdhani">info@RobloxAvatarGear.com</a>
+              <a href="mailto:info@RobloxAvatarGear.com" className="hover:underline hover:text-cyan-400 font-rajdhani">info@robloxavatargear.com</a>
             </li>
             <li className="flex items-center gap-2">
               <span role="img" aria-label="Phone" className="text-green-400">📞</span>
-              <a href="tel:+1234567890" className="hover:underline hover:text-green-400 font-rajdhani">+1 (234) 567-890</a>
+              <a href="tel:+1234567890" className="hover:underline hover:text-green-400 font-rajdhani">+1(514)225-0543</a>
             </li>
           </ul>
         </div>

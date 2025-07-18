@@ -29,7 +29,7 @@ export default function CartPage() {
                 {cart.map((item) => (
                   <div key={item.id} className="flex flex-col sm:flex-row items-center bg-[#181840cc] rounded-xl shadow-neon p-4 gap-4">
                     <div className="w-24 h-24 relative flex-shrink-0">
-                      <Image src={item.image} alt={item.name} fill className="object-cover rounded-lg" />
+                      <Image src={item.image} alt={item.name} fill className="object-contain rounded-lg" />
                     </div>
                     <div className="flex-1 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
                       <div className="flex-1">

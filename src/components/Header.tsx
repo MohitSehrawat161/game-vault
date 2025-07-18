@@ -17,8 +17,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Logo" className="h-12 w-12 " />
-          <span className="text-xl max-md:hidden font-bold text-neon-blue tracking-widest">RobloxAvatarGear</span>
+          <img src="/images/logo.png" alt="Logo" className="w-40 " />
+          {/* <span className="text-xl max-md:hidden font-bold text-neon-blue tracking-widest">RobloxAvatarGear</span> */}
         </Link>
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 items-center">
